@@ -66,14 +66,21 @@
         </figcaption>
       </div>
       <div id="detail-img">
-        <img src="img/benClarkPort2020-3641.jpg" class="bottom-pics">
-        <img src="img/benClarkPort2020-3645.jpg" class="bottom-pics">
-        <img src="img/benClarkPort2020-3642.jpg" class="bottom-pics">
+        <img src="img/benClarkPort2020-4331.jpg" class="bottom-pics">
+        <img src="img/benClarkPort2020-2155.jpg" class="bottom-pics">
+        <img src="img/benClarkPort2020-4984.jpg" class="bottom-pics">
+        <img src="img/benClarkPort2020-3104.jpg" class="bottom-pics">
+        <img src="img/benClarkPort2020-3358.jpg" class="bottom-pics">
+        <img src="img/benClarkPort2020-3629.jpg" class="bottom-pics">
+        <img src="img/benClarkPort2020-2415.jpg" class="bottom-pics">
+        <img src="img/benClarkPort2020-6694.jpg" class="bottom-pics">
       </div>
     </div>
     <script>
       var myIndex = 0;
       carousel();
+      var secondIndex = 0;
+      carouselTwo();
       
       function carousel() {
         var i;
@@ -85,6 +92,18 @@
         if (myIndex > x.length) {myIndex = 1}    
         x[myIndex-1].style.display = "block";  
         setTimeout(carousel, 3000); // Change image every 3 seconds
+      }
+
+      function carouselTwo() {
+        var i;
+        var x = document.getElementsByClassName("bottom-pics");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        secondIndex++;
+        if (secondIndex > x.length) {secondIndex = 1}    
+        x[secondIndex-1].style.display = "block";  
+        setTimeout(carouselTwo, 3000); // Change image every 3 seconds
       }
       </script>
   </body>
