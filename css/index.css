@@ -8,6 +8,20 @@ body {
 #title {
     font-family: 'Signika', sans-serif;
     text-align: center;
+    padding: 3px;
+}
+
+#title-caption {
+    margin-bottom: 30px;
+    padding: 5px;
+    line-height: 20px;
+}
+
+#title-div {
+    margin-top: 0px;
+    margin-right: 250px;
+    margin-left: 250px;
+    background: rgb(235, 235, 235);
 }
 
 #title-caption {
@@ -20,6 +34,14 @@ body {
     margin-right: 4cm;
 }
 .pics {
+    max-height: 600px;
+    max-width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-pics {
     max-height: 600px;
     max-width: auto;
     display: block;
