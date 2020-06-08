@@ -19,8 +19,8 @@ body {
 
 #title-div {
     margin-top: 0px;
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 260px;
+    margin-left: 260px;
     background: rgb(235, 235, 235);
 }
 
@@ -72,6 +72,6 @@ figcaption {
     text-align: center;
 }
 
-#detail-img {
+#live-img {
     padding: 75px;
 }
