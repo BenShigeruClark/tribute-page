@@ -15,6 +15,7 @@ body {
     margin-bottom: 30px;
     padding: 5px;
     line-height: 20px;
+    text-align: center;
 }
 
 #title-div {
@@ -24,15 +25,12 @@ body {
     background: rgb(235, 235, 235);
 }
 
-#title-caption {
-    text-align: center;
-}
-
 .text-style {
     font-family: 'Signika', sans-serif;
     margin-left: 4cm;
     margin-right: 4cm;
 }
+
 .pics {
     max-height: 600px;
     max-width: auto;
@@ -48,6 +46,8 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 .bottom-pics {
     max-height: 675px;
@@ -75,3 +75,101 @@ figcaption {
 #live-img {
     padding: 75px;
 }
+
+@media only screen and (max-width: 1050px) {
+    body {
+        background-image: url('../img/benClarkPort2020-3645.jpg') 50%;
+        background-size: 1000px auto;
+    }
+    #title-caption {
+        margin-bottom: auto;
+        padding: auto;
+        line-height: auto;
+        text-align: center;
+    }
+
+    .pics {
+        max-height: auto;
+        max-width: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .top-pics {
+        max-height: auto;
+        max-width: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bottom-pics {
+        max-height: auto;
+        max-width: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-style {
+        font-family: 'Signika', sans-serif;
+        margin-left: 4cm;
+        margin-right: 4cm;
+        text-align: center;
+    }
+
+    #title {
+        font-family: 'Signika', sans-serif;
+        text-align: center;
+        padding: 3px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+        background-image: url('../img/benClarkPort2020-3645.jpg') 50%;
+        background-size: 1000px auto;
+    }
+    #title-caption {
+        margin-bottom: auto;
+        padding: auto;
+        line-height: auto;
+        text-align: center;
+    }
+
+    .pics {
+        max-height: auto;
+        max-width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .top-pics {
+        max-height: auto;
+        max-width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bottom-pics {
+        max-height: auto;
+        max-width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-style {
+        font-family: 'Signika', sans-serif;
+        margin-left: 4cm;
+        margin-right: 4cm;
+        text-align: center;
+    }
+
+    #title {
+        font-family: 'Signika', sans-serif;
+        text-align: center;
+        padding: 3px;
+    }
+  }
